@@ -24,7 +24,6 @@ pipeline{
                     ssh ec2-user@10.0.3.178 /opt/tomcat8/bin/shutdown.sh
                     
                     ssh ec2-user@10.0.3.178 /opt/tomcat8/bin/startup.sh
-                
                 """
             }
             }
